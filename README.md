@@ -1,6 +1,21 @@
 # Getting Started with Create React App
  - Create React app
- - Configured tailwind CSS
+ - Configured tailwind 
+ - Header
+ - RFouting
+ - signUp form
+ - Sign In form
+ - Validation
+ - useRef hook
+ - firebase deployment
+ - firebase config
+ - create Sign Up user account in Firebase
+ - implement sign in user api
+ - created user redux store with user slice.
+ - Implemented sign out
+ - updated our profile
+ - fetch movies from tmdb
+
 
 
 # Features
