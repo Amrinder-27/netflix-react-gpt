@@ -15,6 +15,14 @@
  - Implemented sign out
  - updated our profile
  - fetch movies from tmdb
+ - register fopr tmdb api
+ - create new app and get access token, go to documentation, get data from tmbd now playing movie list api
+ - Custom hooks for now playing movies
+ - updated the store with movies data
+ - create a movie slice
+ - planning for main container and secondary container
+ - fetched trailer video
+ - 
 
 
 

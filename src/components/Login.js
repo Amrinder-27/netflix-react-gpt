@@ -6,6 +6,7 @@ import { useNavigate } from "react-router-dom";
 import { createUserWithEmailAndPassword, signInWithEmailAndPassword, updateProfile } from "firebase/auth";
 import { useDispatch } from "react-redux";
 import {addUser} from "../utils/userSlice";
+import {LOGIN_IMAGE} from '../utils/constant';
 const Login = () => {
   const [isSignInform, setSignInForm] = useState(true);
   const [errorMessage, setErrorMessage] = useState(true);
@@ -86,7 +87,7 @@ const Login = () => {
     <div className="">
       <Header />
       <div className="absolute">
-        <img src="https://assets.nflxext.com/ffe/siteui/vlv3/cacfadb7-c017-4318-85e4-7f46da1cae88/d99fa435-e8f8-405d-8685-c69b263f2e92/AU-en-20240603-popsignuptwoweeks-perspective_alpha_website_large.jpg" />
+        <img src={LOGIN_IMAGE} />
       </div>
       <form
         onSubmit={(e) => {
