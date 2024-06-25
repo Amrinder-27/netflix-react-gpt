@@ -4,7 +4,7 @@ import VideoMain from './VideoMain';
 const VideoTitle = (props) => {
     const {title, overview} = props;
   return (
-    <div className='absolute w-screen aspect-video pt-[10%]  px-2  text-white bg-gradient-to-tr from-black'>
+    <div className='absolute w-screen aspect-video pt-[10%]  px-8  text-white bg-gradient-to-tr from-black'>
     <h1 className='text-6xl bold'>{title}</h1>  
     <p className='py-6 text-lg w-1/4'>{overview}</p>
     <div className='py-4'>

@@ -48,8 +48,8 @@ const user = useSelector((store) => store.user);
     <div className='absolute w-full left-0 z-10 px-2 py-3 bg-gradient-to-bl bg-opacity-10 flex justify-between from-black'>
         <img className='w-44' src= {LOGO} alt ="logo"/>
    
-    {user && <div className='p-2'>
-      <img className='w-10 h-10' src = {USER_AVATAR}/>
+    {user && <div className='p-2 flex text-white items-center'>
+      <img className='w-10 h-10 mr-2' src = {USER_AVATAR}/>
       <button onClick={handleSignout}>{user.displayName}Sign Out</button>
     </div>}
     </div>
