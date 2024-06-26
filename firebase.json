@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "site": "netflix-new-app",
+    "site": "netflix-gpt-amy",
     "public": "build",
     "ignore": [
       "firebase.json",
