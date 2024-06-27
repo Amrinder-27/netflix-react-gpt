@@ -22,7 +22,10 @@
  - create a movie slice
  - planning for main container and secondary container
  - fetched trailer video
- - 
+ - GPT Search Page
+ - Gpt search bar
+ - (Feature)Multilangual feature in our app
+ - Integration of GPT apis (get open keys)
 
 
 
