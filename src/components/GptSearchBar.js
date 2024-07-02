@@ -10,7 +10,7 @@ const GptSearchBar = () => {
   const getPrefferedLang = useSelector((store) => store.config.preferredLang);
   const searchText = useRef();
   const genAI = new GoogleGenerativeAI(
-   process.env.REACT_APP_GEMINI_API
+    "AIzaSyAilgDjIi9EWfSqRkMxlsXF46v4mI00mtY"
   );
   const model = genAI.getGenerativeModel({ model: "gemini-pro" });
   const dispatch = useDispatch();
